@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Test</title>
+</head>
+<body>
+
+	<h1><%= title %></h1>
+	<table cellpadding="10" cellspacing="0" border="1">
+		<thead>
+			<tr>
+				<th>Data</th>
+			</tr>
+		</thead>
+		<tbody>
+			<% if (data) { %>
+			<% for ( var i = 0, dataLength = data.length; i < dataLength; i++ ) { %>
+			<tr>
+				<td><%= JSON.stringify(data[i]) %></td>
+			</tr>
+			<% } %>
+			<% } %>
+		</tbody>
+	</table>
+
+	<script src="index.js"></script>
+
+</body>
+</html>

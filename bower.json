@@ -1,0 +1,33 @@
+{
+  "name": "ping-home",
+  "version": "0.0.0",
+  "description": "Sham-like alternative to Beacon API.",
+  "authors": [
+    "Ivan Nikolić <niksy5@gmail.com> (http://ivannikolic.com/)"
+  ],
+  "license": "MIT",
+  "main": "dist/ping-home.js",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "src",
+    "lib",
+    "Gruntfile.js",
+    "package.json"
+  ],
+  "homepage": "https://github.com/niksy/ping-home",
+  "moduleType": [
+    "amd",
+    "globals"
+  ],
+  "keywords": [
+    "beacon",
+    "sendbeacon",
+    "sham",
+    "analytics",
+    "tracking"
+  ]
+}
