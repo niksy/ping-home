@@ -1,6 +1,6 @@
 {
   "name": "ping-home",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Sham-like alternative to Beacon API.",
   "author": "Ivan Nikolić <niksy5@gmail.com> (http://ivannikolic.com/)",
   "license": "MIT",
